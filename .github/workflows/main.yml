@@ -24,11 +24,7 @@ jobs:
 
     - name: Auth
 
-      run: .\ngrok\ngrok.exe authtoken $Env:NGROK_AUTH_TOKEN
-
-      env:
-
-         NGROK_AUTH_TOKEN: ${{ 1mYuVZluM17sZeK4gQitB6bxsOC_7E7VAtfyWF9jTZpDhrPdY }}
+      run: .\ngrok\ngrok.exe authtoken 1mYuVZluM17sZeK4gQitB6bxsOC_7E7VAtfyWF9jTZpDhrPdY
 
     - name: Enable TS
 
